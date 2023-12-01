@@ -1,0 +1,43 @@
+.header {
+  padding: 20px 50px;
+  height: 30px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+}
+
+.links-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 527px;
+  height: 27.67px;
+
+  .links-menu__link {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+  }
+}
+
+.icons-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 148px;
+  &__icon {
+    height: 19px;
+    width: 19px;
+    cursor: pointer;
+  }
+}
