@@ -1,0 +1,46 @@
+.categories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+
+  &__container {
+    display: flex;
+    margin: 100px 0 100px 0;
+    gap: 20px;
+  }
+}
+
+.triple-img {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.two-img-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.one-img {
+  width: 552px;
+  height: 580px;
+  background-image: url("https://s3-alpha-sig.figma.com/img/b9b7/0353/92363a2c6697aededfbbaf33de3ab277?Expires=1702252800&Signature=d3ipqYZMPiDhFENU6ibTd82c9q6ao0LuEcdg5KE5QpmYZ4zNOIQaNt-sHMJXFfPUP1nKC55USREgcfztZMz9lcB9aIS92juhYCWq1TOK52As7p~pdSJnrQ9Oc9VJ-npwDj3-t9U3JzHMz0AonwHGlfd-wTr3Ypim3mtYHW3~tjfC~344vfVePtIn9y~09KNqTNMZaPLzuDePY0g4CnUWlZjS0I8jxuGq9E5PTJnWLXISPz9owGvy6pYQvbHnhzo5RIcs04cA6W2hjFEpOq1lQhwz9B5SGzG03yDxpOtL5STVb3TSh0CcEEkkdq4cXZ8KujA~CFnWhHFkeU1XBeP8Qw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 20px;
+
+  .btn-white {
+    width: 203px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(34, 38, 42, 1);
+    background-color: #fff;
+  }
+}
