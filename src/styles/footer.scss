@@ -1,0 +1,127 @@
+.footer {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  &__container {
+    width: 100%;
+    min-height: 600px;
+    background-color: rgba(242, 248, 252, 1);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 100px;
+  }
+
+  .rights {
+    width: 100%;
+    background-color: rgba(231, 245, 248, 1);
+    text-align: center;
+    padding: 35px;
+  }
+}
+
+.contacts {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  &__title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  &__text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  &__email {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: underline;
+  }
+  &__phone {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  &__address {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  &__social {
+    display: flex;
+    gap: 20px;
+    .social-icon {
+      height: 17px;
+      width: 17px;
+      color: black;
+    }
+  }
+}
+
+.links {
+  width: 532px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  .updates {
+    &__title {
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 38px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    &__input {
+      margin-top: 20px;
+      width: 532px;
+      height: 45px;
+      border-radius: 5px;
+      padding: 0.5em;
+    }
+  }
+
+  .pages {
+    width: 532px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    &__column {
+      .pages__column-title {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+
+      .pages__column-link {
+        white-space: nowrap;
+        display: block;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 45px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(34, 38, 42, 1);
+      }
+    }
+  }
+}
